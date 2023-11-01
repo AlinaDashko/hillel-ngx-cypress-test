@@ -35,6 +35,8 @@
 //     }
 //   }
 // }
+import '@bahmutov/cy-api'
+
 Cypress.Commands.add('addUser', function(id, firstName, lastName, userName, email, age) {
     cy.visit('pages/tables/smart-table');
 
